@@ -4,6 +4,18 @@ Ejercicio integrador del curso **Power BI Esencial**, continuación del [Curso d
 
 El caso simula la operación de 8 Plantas Elevadoras de Agua Potable (PEAP) de una empresa sanitaria durante el primer trimestre de 2026, a partir de los registros diarios que exporta el sistema SCADA de telecontrol. **Los datos son ficticios.**
 
+## El proceso que vas a analizar
+
+Cada planta bombea agua a una cota mayor. Sus instrumentos envían los datos a la RTU y al SCADA, que genera el reporte diario que analizarás en Power BI.
+
+![Proceso de una planta elevadora](docs/esquema_1_proceso_peap.drawio.svg)
+
+Las 8 plantas del caso se reparten en 3 sectores. Las de **Rebombeo** elevan agua desde un estanque a una segunda cota.
+
+![Red de plantas por sector y cota](docs/esquema_2_red_plantas.drawio.svg)
+
+El significado de cada columna, su instrumento y su unidad están en el [diccionario de datos](docs/diccionario_datos.md). Los esquemas se pueden abrir y editar en [diagrams.net](https://app.diagrams.net).
+
 ## Cómo empezar
 
 1. Lee el enunciado: [`docs/01_Enunciado_Caso_Final.md`](docs/01_Enunciado_Caso_Final.md).
@@ -24,7 +36,10 @@ CursoPowerBI/
 ├── 03_PowerBI/                  ← tu dashboard_consultoria.pbix
 ├── 04_Presentacion/             ← tu pitch de 7 láminas
 └── docs/
-    └── 01_Enunciado_Caso_Final.md
+    ├── 01_Enunciado_Caso_Final.md
+    ├── diccionario_datos.md
+    ├── esquema_1_proceso_peap.drawio.svg
+    └── esquema_2_red_plantas.drawio.svg
 ```
 
 Al terminar, agrega `01_Datos/datos_limpios.xlsx` con la base depurada y comprime todo como `Grupo_XX_Solemne2.zip`.

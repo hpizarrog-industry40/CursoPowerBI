@@ -14,6 +14,8 @@ Cada planta tiene una RTU (Unidad Remota) que envía al sistema SCADA de telecon
 - **Horas de operación** de las bombas y **horas de detención** no disponible, con su **código de causa**.
 - **Presión de salida** promedio (bar).
 
+Para entender el proceso antes de analizar los datos, revisa en la carpeta `docs/` los esquemas [de una planta](esquema_1_proceso_peap.drawio.svg) y [de la red de plantas](esquema_2_red_plantas.drawio.svg), y el [diccionario de datos](diccionario_datos.md).
+
 La Gerencia de Operaciones necesita un informe en Power BI para el primer trimestre de 2026 (enero a marzo) que responda tres preguntas:
 
 1. ¿Qué plantas tienen **baja disponibilidad** y por qué se detienen?
