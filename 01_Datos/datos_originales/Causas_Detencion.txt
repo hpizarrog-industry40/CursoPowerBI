@@ -1,0 +1,12 @@
+Codigo|Descripcion|Categoria
+NA|Sin detención|Sin detención
+E01|Corte de suministro eléctrico|Eléctrica
+E02|   Falla variador de frecuencia  |Eléctrica
+M01|Falla de rodamiento en bomba|Mecánica
+M02|Vibración excesiva en motor|Mecánica
+M02|Vibración excesiva en motor|Mecánica
+H01|Bajo nivel en estanque de aspiración|Hidráulica
+H02|Rotura de matriz de impulsión|Hidráulica
+
+C01|Pérdida de comunicación RTU|Comunicaciones
+P01|Mantenimiento preventivo programado|Programada
