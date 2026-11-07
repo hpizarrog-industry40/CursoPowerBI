@@ -4,7 +4,7 @@ Ejercicio integrador del curso **Power BI Esencial**, continuación del [Curso d
 
 El caso simula la operación de 8 Plantas Elevadoras de Agua Potable (PEAP) de una empresa sanitaria durante el primer trimestre de 2026, a partir de los registros diarios que exporta el sistema SCADA de telecontrol. **Los datos son ficticios.**
 
-## El proceso que vas a analizar
+## El proceso que vamos a analizar
 
 Cada planta bombea agua a una cota mayor. Sus instrumentos envían los datos a la RTU y al SCADA, que genera el reporte diario que analizarás en Power BI.
 
