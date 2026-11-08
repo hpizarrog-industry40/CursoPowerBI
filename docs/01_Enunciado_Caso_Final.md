@@ -78,6 +78,14 @@ Los datos traen errores típicos de una exportación SCADA. Debes resolver, como
 - [ ] Relacionar las tablas en **esquema estrella**: 1 tabla de hechos (Operacion) y 3 dimensiones (Estaciones, Causas, Calendario), relaciones 1 a muchos.
 - [ ] Marcar Calendario como tabla de fechas.
 
+**Relaciones que debes crear** en la Vista de modelo, arrastrando la clave de la dimensión sobre la columna de la tabla de hechos:
+
+- Estaciones[Cod_Estacion] → Operacion[Cod_Estacion]
+- Causas[Codigo] → Operacion[Cod_Causa]
+- Calendario[Date] → Operacion[Fecha] (o como hayas llamado a la columna de fecha de Calendario)
+
+La relación con **Calendario nunca se crea sola**, porque esa tabla se crea con DAX después de cargar los datos. Si falta, los gráficos por fecha o por mes muestran el mismo total en todos los puntos y el segmentador de mes no filtra nada.
+
 ### Etapa 4 · Medidas DAX
 
 - [ ] Crear las medidas de la sección 4 en una tabla de medidas, con formato y nombre claro.
